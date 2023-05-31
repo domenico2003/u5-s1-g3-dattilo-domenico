@@ -1,6 +1,6 @@
 package application.orders;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -27,7 +27,7 @@ public class Ordine {
 	private int NumeroOrdine = new Random().nextInt();
 	private OrdineStatus stato;
 	private int numeroCoperti;
-	private final LocalDate oraDiAcquisizione = LocalDate.now();
+	private final LocalDateTime oraDiAcquisizione = LocalDateTime.now();
 	private List<ElementoOrdine> ordini = new ArrayList<>();
 
 	@Value("${GodFatherPizzaApplication.costoCoperto}")

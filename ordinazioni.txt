@@ -1,0 +1,2 @@
+Ordine(NumeroOrdine=-1101538893, stato=pronto, numeroCoperti=3, oraDiAcquisizione=2023-05-31T18:10:49.848425900, ordini=[], costoCoperto=1, totale=3.0);
+Ordine(NumeroOrdine=-1835588196, stato=in_corso, numeroCoperti=3, oraDiAcquisizione=2023-05-31T18:15:12.470537100, ordini=[ElementoOrdine(ordinazione=salame [calorie=1160, name=salame, prezzo=5.99], nota=non ci sono note), ElementoOrdine(ordinazione=vino [grandezza=0.75, calorie=607, name=vino, prezzo=7.49], nota=è alcolico)], costoCoperto=1, totale=16.48);

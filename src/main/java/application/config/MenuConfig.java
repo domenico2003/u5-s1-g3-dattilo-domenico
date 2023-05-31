@@ -1,5 +1,6 @@
 package application.config;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -124,5 +125,12 @@ public class MenuConfig {
 	@Scope("singleton")
 	public Franchise mug() {
 		return new Franchise("mug", 4.99);
+	}
+
+	@Bean
+	@Scope("singleton")
+	public File file() {
+
+		return new File("ordinazioni.txt");
 	}
 }
