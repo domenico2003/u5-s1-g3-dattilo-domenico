@@ -11,4 +11,7 @@ public class Salami extends ToppingDecorator {
 		this.calorie = 86;
 	}
 
+	public String StampAdd() {
+		return this.name + " = calorie: " + this.calorie + ", prezzo: " + this.prezzo + "$";
+	}
 }

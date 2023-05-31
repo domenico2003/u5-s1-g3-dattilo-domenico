@@ -11,4 +11,7 @@ public class Onions extends ToppingDecorator {
 		this.calorie = 22;
 	}
 
+	public String StampAdd() {
+		return this.name + " = calorie: " + this.calorie + ", prezzo: " + this.prezzo + "$";
+	}
 }

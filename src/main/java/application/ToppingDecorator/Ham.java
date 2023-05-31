@@ -11,4 +11,7 @@ public class Ham extends ToppingDecorator {
 		this.calorie = 35;
 	}
 
+	public String StampAdd() {
+		return this.name + " = calorie: " + this.calorie + ", prezzo: " + this.prezzo + "$";
+	}
 }

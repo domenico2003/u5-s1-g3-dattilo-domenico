@@ -11,4 +11,7 @@ public class Pineapple extends ToppingDecorator {
 		this.calorie = 24;
 	}
 
+	public String StampAdd() {
+		return this.name + " = calorie: " + this.calorie + ", prezzo: " + this.prezzo + "$";
+	}
 }

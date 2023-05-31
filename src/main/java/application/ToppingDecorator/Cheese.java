@@ -11,4 +11,7 @@ public class Cheese extends ToppingDecorator {
 		this.calorie = 92;
 	}
 
+	public String StampAdd() {
+		return this.name + " = calorie: " + this.calorie + ", prezzo: " + this.prezzo + "$";
+	}
 }

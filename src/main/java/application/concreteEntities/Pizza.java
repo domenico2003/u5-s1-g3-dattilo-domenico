@@ -27,8 +27,7 @@ public class Pizza extends Consumazione {
 
 	@Override
 	public String toString() {
-		return "Pizza [ingredienti=" + ingredienti + ", calorie=" + calorie + ", name=" + name + ", prezzo=" + prezzo
-				+ "]";
+		return name + " [calorie=" + calorie + ", name=" + name + ", prezzo=" + prezzo + "]";
 	}
 
 }
